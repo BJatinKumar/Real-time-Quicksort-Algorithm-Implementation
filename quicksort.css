@@ -1,0 +1,104 @@
+/* Reset default margins, padding, and set box-sizing to border-box for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body with a gradient background and center its contents */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8cdda, #1d2b64); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+/* Container styling: centered text with a semi-transparent background */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+    max-width: 90%; 
+    color: #fff; 
+}
+
+/* Main heading style: large font size and bold weight */
+h1 {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px; 
+}
+
+/* Styling for text input fields */
+input[type="text"] {
+    width: 80%; 
+    padding: 10px; 
+    border: none;
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    font-size: 1.2rem; 
+}
+
+/* Button styling: background color, padding, rounded corners, and hover effect */
+button {
+    background-color: #ff7e5f; 
+    color: #fff;
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 30px; 
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background: #feb47b; 
+}
+
+/* Visualization section styling: for output display area */
+#visualization {
+    margin-top: 20px; 
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+    word-wrap: break-word; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 15px; 
+    border-radius: 10px; 
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+
+/* Individual step styling: content blocks with background and border */
+.step {
+    margin-top: 15px; 
+    padding: 10px; 
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px; 
+    font-size: 1.1rem; 
+    color: #333; 
+    border-left: 5px solid #ff7e5f; 
+}
+
+/* Highlighted step styling: distinct background and border color */
+.step.highlight {
+    background-color: #ffd1b3; 
+    border-left-color: #feb47b; 
+}
+
+/* Final step styling: bold, centered, with a different background */
+.final {
+    margin-top: 25px; 
+    padding: 10px; 
+    background: #fff; 
+    border-radius: 8px; 
+    font-size: 1.3rem; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+}
